@@ -1,0 +1,116 @@
+header {
+    text-align: center;  
+    padding: 100px 50px;
+    color: white;
+}
+header h1 {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(155, 185, 227);
+    margin: 1;   
+    padding: 0; 
+    border: 10px solid pink;
+  
+    line-height: 1.6;
+
+
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: pink; /* pink bar */
+  padding: 10px 20px;
+}
+
+.pink-bar {
+  background-color: pink;
+  padding: 10px 0;
+  margin-top: 60px; /* adds spacing below logo if needed */
+}
+
+.pink-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* center align About and Contact */
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.pink-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  margin-left: auto; /* pushes nav to the right */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* navbar link colour */
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.animated-heading {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 2s ease forwards;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animated-subheading {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 2s ease forwards;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.image{
+    width: 150px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
